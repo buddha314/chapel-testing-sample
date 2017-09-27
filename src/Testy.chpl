@@ -3,4 +3,8 @@ module Testy {
 	proc main() {
 		writeln("Testy the Clown says ", msg);
 	}
+
+	proc repeatAfterMe(s:string) {
+		return("about 3 percent of " + s);
+	}
 }
